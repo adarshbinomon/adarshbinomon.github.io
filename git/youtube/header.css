@@ -1,0 +1,112 @@
+
+.header{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: white;
+    border-bottom-color: rgba(128, 128, 128, 0.556);
+    z-index: 100;
+    
+}
+.leftsection{
+    display: flex;
+    align-items: center;
+}
+.menuicon{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.ytlogo{
+    width: 95px;
+
+}
+.middlesection{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.searchbar{
+    height: 34px;
+    font-size: 16px;
+    padding-left: 10px;
+    flex: 1;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.435);
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+    margin-left: 87px;
+
+}
+.searchbar::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+.searchbutton{
+  margin-top: 15px;
+    height: 27px;
+    margin-left: -36px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    
+
+}
+.micbutton{
+    height: 30px;
+    width: 30px;
+    border-radius: 28px;
+    margin-left: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.rightsection{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    flex-shrink: 0;
+
+    
+}
+.createicon{
+    height: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.notification{
+    height: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.notificationiconcontainer{
+    position: relative;
+}
+.notificationcount{
+    position: absolute;
+    top: 10px;
+    right: -6px;
+    font-size: 12px;
+    padding: 2px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.ytprofile{
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 19px;
+    cursor: pointer;
+}
